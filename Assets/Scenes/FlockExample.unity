@@ -217,6 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 910343748}
   - component: {fileID: 910343749}
+  - component: {fileID: 910343750}
   m_Layer: 0
   m_Name: FlockCoordinator
   m_TagString: Untagged
@@ -253,6 +254,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _boidPrefab: {fileID: 693312668177900316, guid: 5f7cdace2c294be469ddac994a779221, type: 3}
   _boidCount: 1000
+  _spawnRadius: 8
+--- !u!114 &910343750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910343747}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889b7a35efb1a0643a512b46c6dfb342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boidPrefab: {fileID: 693312668177900316, guid: 5f7cdace2c294be469ddac994a779221, type: 3}
+  _boidCount: 10000
   _spawnRadius: 8
 --- !u!1 &1275451202
 GameObject:

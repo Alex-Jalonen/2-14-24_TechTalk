@@ -67,7 +67,7 @@ public class FlockCoordinator : MonoBehaviour
             Positions = _positions,
             Velocities = _velocities,
         };
-        JobHandle jobHandle = job.Schedule(_boidCount, 64);
+        JobHandle jobHandle = job.Schedule(_boidCount, 256);
 
         // Wait for the job to complete
         jobHandle.Complete();
